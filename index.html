@@ -1,10 +1,21 @@
-<!doctype html>
-<html>
-<head>
-    <title>Home page</title>
-</head>
-    <body>
-        <h1>Home</h1>
-        <p>test</p>
-    </body>
-</html>
+<!-- myapp/templates/myapp/index.html -->
+{% extends "myapp/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block header %}Home{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Home Page</h2>
+    <p>This is the home page of the system. Here you can find information and navigate to different sections.</p>
+    <div class="large-box"></div>
+    <div class="small-boxes-row">
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+    </div>
+    <div class="small-boxes-row">
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+    </div>
+{% endblock %}
