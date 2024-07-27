@@ -1,92 +1,16 @@
-/* static/css/styles.css */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    padding-top: 20px;
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    border-radius: 10px 10px 0 0;
-    text-align: center;
-}
-
-.header h1 {
-    font-size: 24px;
-}
-
-.main-content {
-    padding: 20px;
-}
-
-.large-box {
-    background-color: #e0e0e0;
-    height: 150px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.small-boxes-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.small-box {
-    background-color: #e0e0e0;
-    height: 80px;
-    border-radius: 10px;
-    flex: 1;
-    margin: 0 10px;
-}
-
-.small-box:first-child {
-    margin-left: 0;
-}
-
-.small-box:last-child {
-    margin-right: 0;
-}
-
-.bullet-points ul {
-    list-style: none;
-    padding: 20px;
-}
-
-.bullet-points li {
-    height: 10px;
-    width: 10px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 10px 0;
+    max-width: 600px;
+    margin: auto;
 }
 
 h2 {
     margin-bottom: 20px;
-    font-size: 22px;
-    color: #4CAF50;
 }
 
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
+.alert {
+    margin-top: 20px;
 }
